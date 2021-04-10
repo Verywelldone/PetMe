@@ -8,6 +8,7 @@ import { MainComponent } from './components/main/main.component';
 import { HeroLandingComponent } from './components/main/hero-landing/hero-landing.component';
 import { BenefitsComponent } from './components/main/benefits/benefits.component';
 import { ServicesTestimonialsComponent } from './components/main/services-testimonials/services-testimonials.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ServicesTestimonialsComponent } from './components/main/services-testim
     MainComponent,
     HeroLandingComponent,
     BenefitsComponent,
-    ServicesTestimonialsComponent
+    ServicesTestimonialsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
