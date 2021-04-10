@@ -1,0 +1,98 @@
+.white-bg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  color: black;
+}
+
+.white-bg > h2 {
+  line-height: 1.35em;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.white-bg > h3 {
+  text-align: center;
+  line-height: 1.75em;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.white-bg > .long-text {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.white-bg > .long-text > p {
+  text-align: center;
+  line-height: 1.875em;
+  font-size: 15px;
+}
+
+.logo-wrapper {
+  background-color: rgb(252, 219, 108);
+  text-align: center;
+  height: 300px;
+}
+
+.service-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(252, 219, 108);
+  font-family: "Roboto", sans-serif;
+}
+
+.service-name {
+  text-align: center;
+  line-height: 1.41em;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.carousel {
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 50px;
+}
+
+.carousel-item > h1{
+  font-weight: bold;
+}
+
+.testimonial-text {
+  font-size: 1.4rem;
+  font-style: italic;
+  width: 50%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+@media screen and(max-width: 768px ) {
+  .testimonial-text {
+    font-style: italic;
+    width: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+
+  .carousel-item {
+    text-align: center;
+    padding-top: 0;
+    width: 100%;
+  }
+}
