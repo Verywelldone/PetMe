@@ -2,12 +2,12 @@
   "name": "webapp",
   "version": "0.0.0",
   "scripts": {
-    "ng": "webapp/node_modules/.bin/ng",
-    "start": "webapp/node_modules/.bin/ng serve",
-    "build": "webapp/node_modules/.bin/ng build",
-    "test": "webapp/node_modules/.bin/ng test",
-    "lint": "webapp/node_modules/.bin/ng lint",
-    "e2e": "webapp/node_modules/.bin/ng e2e"
+    "ng": "node_modules/.bin/ng",
+    "start": "node_modules/.bin/ng serve",
+    "build": "node_modules/.bin/ng build",
+    "test": "node_modules/.bin/ng test",
+    "lint": "node_modules/.bin/ng lint",
+    "e2e": "node_modules/.bin/ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -22,9 +22,6 @@
     "@angular/platform-browser": "~11.2.9",
     "@angular/platform-browser-dynamic": "~11.2.9",
     "@angular/router": "~11.2.9",
-    "@fortawesome/angular-fontawesome": "^0.7.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
