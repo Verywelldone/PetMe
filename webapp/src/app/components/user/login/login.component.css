@@ -1,0 +1,86 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  height: 80vh;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#redirect-to-signup {
+  color: rgb(252, 219, 108);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.font-weight-bold {
+  font-weight: bold !important;
+}
+
+#login-button {
+  background-color: rgb(252, 219, 108);
+  width: 100%;
+  height: 50px;
+}
+
+.test {
+  display: block !important;
+  text-align: center;
+  margin: 34px auto;
+  border-bottom: 1px solid;
+  height: 11px;
+}
+
+.test > span {
+  background-color: white;
+  padding: 10px
+}
+
+#forgot-password {
+  color: black;
+}
+
+.mat-form-field {
+  padding-bottom: 15px;
+}
+
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .mat-form-field {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
