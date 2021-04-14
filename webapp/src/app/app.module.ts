@@ -17,6 +17,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { RegisterComponent } from './components/user/register/register.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { UnderConstructionComponent } from './components/shared/under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ContactComponent } from './components/contact/contact.component';
     LoginComponent,
     RegisterComponent,
     AboutUsComponent,
-    ContactComponent
+    ContactComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,
