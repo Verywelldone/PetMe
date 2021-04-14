@@ -1,16 +1,16 @@
 <div class="container d-flex align-items-center justify-content-center flex-column">
   <div class="wrapper">
-    <h1 class="header text-center">Log In</h1>
-    <h2 class="text-center">New to this site? <span><a routerLink="/register" id="redirect-to-signup">Sign Up</a></span></h2>
-    <form [formGroup]="loginFormGroup">
+    <h1 class="header text-center">Sign up</h1>
+    <h2 class="text-center">Already a member?<span><a routerLink="/login" id="redirect-to-signup"> Log in</a></span></h2>
+    <form [formGroup]="registerFormGroup">
       <mat-form-field class="w-100">
         <mat-label>Email</mat-label>
         <input [errorStateMatcher]="matcher" formControlName="email" matInput placeholder="Ex. pat@example.com"
                type="email">
-        <mat-error *ngIf="loginFormGroup.get('email').hasError('email') && !loginFormGroup.get('email').hasError('required')">
+        <mat-error *ngIf="registerFormGroup.get('email').hasError('email') && !registerFormGroup.get('email').hasError('required')">
           Please enter a valid email address
         </mat-error>
-        <mat-error *ngIf="loginFormGroup.get('email').hasError('required')">
+        <mat-error *ngIf="registerFormGroup.get('email').hasError('required')">
           Email is <strong>required</strong>
         </mat-error>
       </mat-form-field>
@@ -18,16 +18,16 @@
       <mat-form-field class="w-100">
         <mat-label>Password</mat-label>
         <input [errorStateMatcher]="matcher" formControlName="password" matInput type="email">
-        <mat-error *ngIf="loginFormGroup.get('password').hasError('required')">
+        <mat-error *ngIf="registerFormGroup.get('password').hasError('required')">
           Password is <strong>required</strong></mat-error>
       </mat-form-field>
     </form>
 
     <h2><a href="#" id="forgot-password">Forgot password?</a></h2>
-    <button id="login-button" mat-flat-button>Log In</button>
+    <button id="login-button" mat-flat-button>Register</button>
 
     <div class="test font-weight-bold">
-      <span>or log in with</span>
+      <span>or register with</span>
     </div>
     <div class="container-fluid text-center">
       <a href="#" class="p-3">

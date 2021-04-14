@@ -1,6 +1,6 @@
 section {
   max-width: 80%;
-  max-height:88vh;
+  max-height: 88vh;
   margin: auto;
   text-align: center;
 }
@@ -72,8 +72,8 @@ p {
   padding-bottom: 3%;
 }
 
-@media screen and (max-width: 923px){
-  p{
+@media screen and (max-width: 923px) {
+  p {
     max-width: 100%;
   }
 }

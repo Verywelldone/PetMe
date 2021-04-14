@@ -1,0 +1,29 @@
+<div class="container">
+  <h1 class="page-header">Give Us Your Feedback</h1>
+  <h2 class="page-sub-header">What Did You Think?</h2>
+  <form class="contact-form" [formGroup]="contactFormGroup">
+    <div class="row">
+      <div class="col-md-6">
+        <mat-form-field class="w-100">
+          <mat-label>First Name</mat-label>
+          <input formControlName="fname" matInput type="text">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6">
+        <mat-form-field class="w-100">
+          <mat-label>last Name</mat-label>
+          <input formControlName="lname" matInput type="text">
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+      <mat-form-field class="w-100">
+        <mat-label>Email</mat-label>
+        <input formControlName="email" matInput type="email">
+      </mat-form-field>
+    </div>
+    <textarea class="text-area" name="contact-message"></textarea>
+  </form>
+
+  <button class="submit-button">Submit</button>
+</div>

@@ -14,6 +14,9 @@ import {LoginComponent} from './components/user/login/login.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {DemoMaterialModule} from "./material-module";
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { RegisterComponent } from './components/user/register/register.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     BenefitsComponent,
     ServicesTestimonialsComponent,
     ServicesComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent,
+    AboutUsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
